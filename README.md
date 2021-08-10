@@ -1,10 +1,11 @@
 # AutoRig_Sagar
-Biped AutoRig
-This is just an attempt to built a biped procedural way.
+PROCEDURALISED AUTORIG (WIP)
 
-I will be honest, I have tried to understand different setups to create this one.
+This is my first attempt to built a biped rig in procedural way.
 
-Two things pre-made stored in folders outside the code folder is Joint system and Models
+I will be honest, this is me trying to understand the background process.
+
+To start with we have a skeleton and a model placed outsied in a folder matching eachother.
 
 Once we have those matching, we do a simple import of few modules.
 
