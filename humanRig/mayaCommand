@@ -1,0 +1,11 @@
+import humanRig
+import rigLib
+
+reload(humanRig)
+
+# Build
+characterName = 'human'
+humanRig.human.build(characterName)
+
+# Save skin weights
+humanRig.human_deform.save_skin_weights()

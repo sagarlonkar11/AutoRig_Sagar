@@ -1,0 +1,18 @@
+fk_joints=False
+
+listed_joints = cmds.listRelatives ('root', type='joint', ad=True)
+listed_joints.append ('root')
+listed_joints.reverse()
+
+complete_joints = listed_joints[:]
+
+
+fk_joints = cmds.listRelatives ('fk_*', type='joint', ad=True)
+
+for each in fk_joints:
+	print each
+	complete_joints.remove(each)
+	print complete_joints
+		
+print complete_joints
+		
